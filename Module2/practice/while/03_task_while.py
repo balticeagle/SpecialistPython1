@@ -9,4 +9,10 @@
 # 123
 # 1234
 
-# TODO: your code here
+n = int(input('введите натуральное число: '))
+i = 1
+number = ""
+while i <= n:
+    number = number + str(i)
+    print(number)
+    i += 1
