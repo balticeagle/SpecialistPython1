@@ -4,8 +4,9 @@
 # * попробуйте решить данную задачу, не преобразуя число к строке
 
 def palindrome(number):
-    pass
-
+    stroke = str(number)
+    reverse_stroke = stroke[::-1]
+    return stroke == reverse_stroke
 
 # Тестируем функцию
 print(palindrome(3454))
